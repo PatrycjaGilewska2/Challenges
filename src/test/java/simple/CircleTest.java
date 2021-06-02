@@ -25,6 +25,6 @@ public class CircleTest {
         Circle circle = new Circle(radius);
         double squareArea = circle.getArea();
         //then
-        assertEquals(12.566, squareArea, 0.01);
+        assertEquals(12.566, squareArea, 0.001);
     }
 }
