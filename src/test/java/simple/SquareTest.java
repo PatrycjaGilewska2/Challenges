@@ -27,4 +27,18 @@ public class SquareTest {
         //then
         assertEquals(4d, squareArea, 0d);
     }
+
+    @Test
+    public void shouldReturnSquare_withTheSameAreaAsCircle_whenCircleWithRadiusIsCreated() {
+        //given
+        double radius = 2d;
+        Circle circle = new Circle(radius);
+        double circleArea = circle.getArea();
+        //when
+        Square square = new Square(circle);
+        double squareArea = square.getArea();
+        //then
+        assertEquals(circleArea, squareArea, 0.00001);
+    }
+
 }

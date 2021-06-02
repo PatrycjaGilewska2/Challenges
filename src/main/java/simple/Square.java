@@ -9,9 +9,8 @@ public class Square {
         this.side = side;
     }
 
-    //TODO: square with the same area as the given circle
     Square(Circle circle) {
-        new Square(circle.getRadius());
+        this.side = Math.sqrt(circle.getArea());
     }
 
     public Double getSide() {
