@@ -18,7 +18,7 @@ public class Circle {
     }
 
     public double getArea() {
-        return Math.PI * Math.sqrt(radius);
+        return Math.PI * Math.pow(radius, 2);
     }
 
     public String toString() {
