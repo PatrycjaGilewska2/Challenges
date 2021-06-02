@@ -40,5 +40,4 @@ public class SquareTest {
         //then
         assertEquals(circleArea, squareArea, 0.00001);
     }
-
 }

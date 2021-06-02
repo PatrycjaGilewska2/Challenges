@@ -9,6 +9,9 @@ public class Square {
         this.side = side;
     }
 
+    /**
+     * Creates Square with the same area as Circle
+     */
     Square(Circle circle) {
         this.side = Math.sqrt(circle.getArea());
     }
