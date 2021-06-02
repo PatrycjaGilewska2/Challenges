@@ -47,4 +47,16 @@ public class Circle {
         double squareSide = this.radius * 2;
         return new Square(squareSide);
     }
+
+    /**
+     * Creates and returns an array of {@link Square}
+     * which have the same area as the corresponding {@link Circle}
+     */
+    public static Square[] getSquares(Circle[] circles) {
+        Square[] squares = new Square[circles.length];
+        for (int i = 0; i < circles.length; i++) {
+            squares[i] = new Square(circles[i]);
+        }
+        return squares;
+    }
 }

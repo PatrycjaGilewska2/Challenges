@@ -67,4 +67,19 @@ public class CircleTest {
         double squareSide = circumscribedSquare.getSide();
         assertEquals(4d, squareSide, 0.01);
     }
+
+    @Test
+    public void shouldReturnAnArrayOfSquares_whichHaveTheSameAreaAsTheCorrespondingCircle() {
+        //given
+        double radius = 2d;
+        Circle[] circles = new Circle[1];
+        circles[0] = new Circle(radius);
+        //when
+        Square[] squares = Circle.getSquares(circles);
+        //then
+        assertNotNull(squares);
+        assertEquals(1, squares.length);
+        double squareSide = squares[0].getSide();
+        assertEquals(4d, Math.round(squareSide), 0.01);
+    }
 }
