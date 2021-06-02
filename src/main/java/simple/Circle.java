@@ -5,7 +5,7 @@ public class Circle {
     private int parameter;
     private double radius;
 
-    Circle(double radius) {
+    public Circle(double radius) {
         this.radius = radius;
     }
 
@@ -29,7 +29,9 @@ public class Circle {
     }
 
     public String toString() {
-        return String.valueOf(radius);
+        String radiusToPrint = String.valueOf(this.radius);
+        String square = "Circle[%s]";
+        return String.format(square, radiusToPrint);
     }
 
     /**

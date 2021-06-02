@@ -5,7 +5,7 @@ public class Square {
     private int parameter;
     private double side;
 
-    Square(double side) {
+    public Square(double side) {
         this.side = side;
     }
 
@@ -29,7 +29,9 @@ public class Square {
     }
 
     public String toString() {
-        return String.valueOf(side);
+        String sideToPrint = String.valueOf(this.side);
+        String square = "Square[%s]";
+        return String.format(square, sideToPrint);
     }
 
     /**
