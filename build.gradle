@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'org.example'
+group 'com.pgilewsk'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -10,6 +10,7 @@ repositories {
 }
 
 dependencies {
+    implementation "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.12.5"
     implementation "com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}"
     implementation "org.projectlombok:lombok:${lombokVersion}"
     testImplementation "org.junit.jupiter:junit-jupiter:${junitVersion}"
