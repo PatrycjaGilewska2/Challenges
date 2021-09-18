@@ -1,13 +1,11 @@
 package project.domain;
 
-import lombok.AllArgsConstructor;
-
-public class GainPerDate {
+public class ShareSymbolWithDailyGain {
 
     float dailyGain;
     String symbol;
 
-    public GainPerDate(float dailyGain, String symbol) {
+    public ShareSymbolWithDailyGain(float dailyGain, String symbol) {
         this.dailyGain = dailyGain;
         this.symbol = symbol;
     }

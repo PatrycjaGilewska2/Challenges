@@ -3,13 +3,9 @@ package project.domain;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.datatype.jsr310.deser.LocalDateDeserializer;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.Getter;
 
 import java.time.LocalDate;
 
-@AllArgsConstructor
 public class Share {
 
     @JsonProperty("date")

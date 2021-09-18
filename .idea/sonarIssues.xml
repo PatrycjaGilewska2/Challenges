@@ -33,6 +33,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/lombok.config">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/Application.java">
           <value>
             <set />
@@ -83,12 +88,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/project/domain/GainPerSymbol.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/project/domain/Share.java">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/project/domain/ShareDto.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/project/domain/ShareExchangePerDateWithSymbols.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/project/domain/ShareSymbol.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/project/domain/ShareSymbolWithDailyGain.java">
           <value>
             <set />
           </value>
@@ -128,6 +153,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/project/service/ShareExchangeService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/project/service/ShareExchangeServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/project/service/ShareService.java">
           <value>
             <set />
@@ -139,6 +174,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/project/service/impl/DailyGainServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/project/service/impl/ShareExchangeServiceImpl.java">
           <value>
             <set />
           </value>
@@ -204,6 +244,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/test/java/project/reader/UrlReaderTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/project/service/ShareExchangeServiceImplTest.java">
           <value>
             <set />
           </value>

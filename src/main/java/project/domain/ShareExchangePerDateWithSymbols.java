@@ -1,20 +1,13 @@
 package project.domain;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
 import java.time.LocalDate;
 import java.util.List;
 
-@NoArgsConstructor
-@AllArgsConstructor
-public class ExchangeSth {
+public class ShareExchangePerDateWithSymbols {
 
     LocalDate date;
     String exchange;
-    List<GainPerDate> gains;
-
+    List<ShareSymbolWithDailyGain> symbols;
 
     public void setDate(LocalDate date) {
         this.date = date;
@@ -24,7 +17,7 @@ public class ExchangeSth {
         this.exchange = exchange;
     }
 
-    public void setGains(List<GainPerDate> gains) {
-        this.gains = gains;
+    public void setSymbols(List<ShareSymbolWithDailyGain> symbols) {
+        this.symbols = symbols;
     }
 }
