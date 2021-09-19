@@ -13,7 +13,11 @@ import static project.helper.ShareHelper.getListOfGroupedSharesForADatePerExchan
 
 public class ShareExchangeServiceImpl implements ShareExchangeService {
 
-    private final Parser parser = new Parser();
+    private final Parser parser;
+
+    public ShareExchangeServiceImpl(String path) {
+        this.parser = new Parser(path);
+    }
 
     public List<ShareExchangePerDateWithSymbols> getShareExchangePerDateWithSymbolsAndTheLargestDailyGain(LocalDate date) throws IOException {
         return getExchangesWithSymbols(getListOfGroupedSharesForADatePerExchange(date, parser.sharesFromJson()));

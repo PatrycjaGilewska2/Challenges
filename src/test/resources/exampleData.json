@@ -1,16 +1,7 @@
 [
   {
-    "close": 61.96,
-    "date": "2020-08-07",
-    "exchange": "XNYS",
-    "high": 62.08,
-    "low": 59.54,
-    "open": 59.8,
-    "symbol": "EVR"
-  },
-  {
     "close": 75,
-    "date": "2020-08-07",
+    "date": "2020-08-06",
     "exchange": "XNYS",
     "high": 62.08,
     "low": 59.54,
@@ -34,32 +25,5 @@
     "low": 210.93,
     "open": 214.85,
     "symbol": "MSFT"
-  },
-  {
-    "close": 258.73,
-    "date": "2020-03-07",
-    "exchange": "XNAS",
-    "high": 268.0,
-    "low": 252.8,
-    "open": 266.45,
-    "symbol": "ZM"
-  },
-  {
-    "close": 22.98,
-    "date": "2020-08-07",
-    "exchange": "XNYS",
-    "high": 22.985,
-    "low": 22.53,
-    "open": 22.62,
-    "symbol": "BP"
-  },
-  {
-    "close": 444.45,
-    "date": "2020-08-07",
-    "exchange": "XNAS",
-    "high": 454.7,
-    "low": 441.17,
-    "open": 452.82,
-    "symbol": "AAPL"
   }
 ]

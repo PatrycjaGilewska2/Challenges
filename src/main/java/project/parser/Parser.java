@@ -11,8 +11,12 @@ import java.util.List;
 
 public class Parser {
 
+    private final String path;
     private final ObjectMapper mapper = new ObjectMapper();
-    private final String PATH = "src/main/resources/exampleData.json";
+
+    public Parser(String path) {
+        this.path = path;
+    }
 
     public List<Share> sharesFromJson() throws IOException {
         String json = stringFromJson();
@@ -23,6 +27,6 @@ public class Parser {
     }
 
     private String stringFromJson() throws IOException {
-        return Files.readString(Path.of(PATH));
+        return Files.readString(Path.of(path));
     }
 }

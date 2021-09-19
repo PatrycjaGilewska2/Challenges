@@ -15,15 +15,15 @@ public class ShareExchangePerDateWithSymbols {
         this.symbols = symbols;
     }
 
-    public void setDate(LocalDate date) {
-        this.date = date;
+    public LocalDate getDate() {
+        return date;
     }
 
-    public void setExchange(String exchange) {
-        this.exchange = exchange;
+    public String getExchange() {
+        return exchange;
     }
 
-    public void setSymbols(List<ShareSymbolWithDailyGain> symbols) {
-        this.symbols = symbols;
+    public List<ShareSymbolWithDailyGain> getSymbols() {
+        return symbols;
     }
 }
