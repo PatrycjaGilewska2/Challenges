@@ -15,8 +15,7 @@ dependencies {
     implementation "org.projectlombok:lombok:${lombokVersion}"
     testImplementation "org.junit.jupiter:junit-jupiter:${junitVersion}"
     testImplementation "org.assertj:assertj-core:${assertVersion}"
-//    annotationProcessor "org.projectlombok:lombok:${lombokVersion}"
-//    annotationProcessor "com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}"
+
 }
 
 test {

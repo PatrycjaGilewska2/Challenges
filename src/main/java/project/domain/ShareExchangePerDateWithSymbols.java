@@ -9,6 +9,12 @@ public class ShareExchangePerDateWithSymbols {
     String exchange;
     List<ShareSymbolWithDailyGain> symbols;
 
+    public ShareExchangePerDateWithSymbols(LocalDate date, String exchange, List<ShareSymbolWithDailyGain> symbols) {
+        this.date = date;
+        this.exchange = exchange;
+        this.symbols = symbols;
+    }
+
     public void setDate(LocalDate date) {
         this.date = date;
     }
