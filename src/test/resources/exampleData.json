@@ -1,0 +1,29 @@
+[
+  {
+    "close": 75,
+    "date": "2020-08-06",
+    "exchange": "XNYS",
+    "high": 62.08,
+    "low": 59.54,
+    "open": 59.8,
+    "symbol": "EVR"
+  },
+  {
+    "close": 212.48,
+    "date": "2020-08-07",
+    "exchange": "XNAS",
+    "high": 215.7,
+    "low": 210.93,
+    "open": 214.85,
+    "symbol": "MSFT"
+  },
+  {
+    "close": 215,
+    "date": "2020-08-07",
+    "exchange": "XNAS",
+    "high": 215.7,
+    "low": 210.93,
+    "open": 214.85,
+    "symbol": "MSFT"
+  }
+]
