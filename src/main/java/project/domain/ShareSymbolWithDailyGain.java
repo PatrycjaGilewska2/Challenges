@@ -1,13 +1,21 @@
 package project.domain;
 
+import java.time.LocalDate;
+
 public class ShareSymbolWithDailyGain {
 
-    float dailyGain;
-    String symbol;
+    private final LocalDate date;
+    private final float dailyGain;
+    private final String symbol;
 
-    public ShareSymbolWithDailyGain(float dailyGain, String symbol) {
+    public ShareSymbolWithDailyGain(LocalDate date, float dailyGain, String symbol) {
+        this.date = date;
         this.dailyGain = dailyGain;
         this.symbol = symbol;
+    }
+
+    public LocalDate getDate() {
+        return date;
     }
 
     public float getDailyGain() {

@@ -18,6 +18,61 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../AltkomAcademy/src/pl/altkom/example1/LenghtComparator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../AltkomAcademy/src/pl/altkom/example1/SortingTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../AltkomAcademy/src/pl/altkom/example1/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../AltkomAcademy/src/pl/altkom/example1/domain/LenghtComparator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../AltkomAcademy/src/pl/altkom/example1/domain/LengthComparator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../AltkomAcademy/src/pl/altkom/example1/domain/Provider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../AltkomAcademy/src/pl/altkom/example1/domain/model/Actor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../AltkomAcademy/src/pl/altkom/mod02/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../AltkomAcademy/src/pl/altkom/mod02/builder/Goal.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../AltkomAcademy/src/pl/altkom/mod02/builder/RoomBuilder.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../AltkomAcademy/src/pl/altkom/mod02/builder/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/.gitignore">
           <value>
             <set />
@@ -263,6 +318,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/test/java/project/service/ShareExchangeServiceTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/test/java/project/service/impl/DailyGainServiceImplTest.java">
           <value>
             <set />
@@ -294,6 +354,41 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../daily-gain/src/main/resources/data.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../model_and_provider/Provider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../model_and_provider/mod02/ex01_serialize/model/Actor.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../model_and_provider/mod02/ex01_serialize/model/Provider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../model_and_provider/model/MovieLibrary.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../szkolenie/src/pl/altkom/module2/ex1/Application.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../szkolenie/src/pl/altkom/module2/ex1/Dirs.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../szkolenie/src/pl/altkom/module2/ex1/Main.java">
           <value>
             <set />
           </value>
