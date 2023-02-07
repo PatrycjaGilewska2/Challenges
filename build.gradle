@@ -1,14 +1,40 @@
 plugins {
     id 'java'
+    id 'com.diffplug.spotless' version '5.14.0'
 }
 
-group 'org.example'
-version '1.0-SNAPSHOT'
+spotless {
+    encoding 'UTF-8'
+    java {
+        removeUnusedImports()
+        importOrder('java', 'javax', 'org', 'com', '')
+        eclipse().configFile rootProject.file("spotless/JavaCodeStyle.xml")
+    }
 
-repositories {
-    mavenCentral()
+    group 'com.pgilewsk'
+    version '1.0-SNAPSHOT'
+
+    repositories {
+        mavenCentral()
+    }
 }
-
 dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation "org.springframework.boot:spring-boot-starter-validation:${springVersion}"
+    compileOnly "org.projectlombok:lombok:${lombokVersion}"
+    annotationProcessor "org.projectlombok:lombok:${lombokVersion}"
+    annotationProcessor "org.springframework.boot:spring-boot-configuration-processor:${springVersion}"
+    implementation "org.springframework.boot:spring-boot-starter-integration:${springVersion}"
+    implementation "org.springframework.boot:spring-boot-starter-json:${springVersion}"
+    implementation "org.springframework.boot:spring-boot-starter-web:${springVersion}"
+    implementation "org.springframework.boot:spring-boot-starter-actuator:${springVersion}"
+    implementation "com.opencsv:opencsv:${csvVersion}"
+    testImplementation "org.junit.jupiter:junit-jupiter-api:${junitVersion}"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:${junitVersion}"
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
 }

@@ -1,20 +1,27 @@
 package simple;
 
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import static org.junit.Assert.assertEquals;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
-public class CalculatorTest {
+import org.junit.jupiter.api.Test;
+
+class CalculatorTest {
 
     @Test
-    public void shouldPerformAddition() {
-        //given
+    void shouldPerformAddition() {
+        // given
+        DateTimeFormatter dtf = DateTimeFormatter.ISO_DATE_TIME;
+        LocalDateTime now = LocalDateTime.now();
+        String format = dtf.format(now);
         int a = 2;
         int b = 4;
-        //when
+        // when
         Calculator calc = new Calculator();
         int result = calc.add(a, b);
-        //then
+        // then
         assertEquals(6, result);
     }
+
 }
