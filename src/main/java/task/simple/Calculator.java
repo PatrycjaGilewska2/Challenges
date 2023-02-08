@@ -1,4 +1,4 @@
-package simple;
+package task.simple;
 
 public class Calculator {
 

@@ -1,6 +1,7 @@
-package model;
+package task.model;
 
 import com.opencsv.bean.CsvBindByName;
+
 import lombok.Data;
 
 @Data
@@ -14,4 +15,5 @@ public class ClientFile {
     private String description;
     @CsvBindByName(column = "UPDATED_TIMESTAMP")
     private String timestamp;
+
 }

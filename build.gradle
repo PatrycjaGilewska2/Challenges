@@ -1,6 +1,13 @@
 plugins {
+//    id 'org.springframework.boot' version '3.0.0'
+    id 'io.spring.dependency-management' version '1.1.0'
     id 'java'
     id 'com.diffplug.spotless' version '5.14.0'
+}
+
+compileJava {
+    sourceCompatibility = '15'
+    targetCompatibility = '15'
 }
 
 spotless {
@@ -28,6 +35,9 @@ dependencies {
     implementation "org.springframework.boot:spring-boot-starter-web:${springVersion}"
     implementation "org.springframework.boot:spring-boot-starter-actuator:${springVersion}"
     implementation "com.opencsv:opencsv:${csvVersion}"
+    implementation "org.springframework.boot:spring-boot-starter-data-jpa:${springVersion}"
+    runtimeOnly "com.h2database:h2:${h2Version}"
+    implementation 'javax.xml.bind:jaxb-api:2.3.1'
     testImplementation "org.junit.jupiter:junit-jupiter-api:${junitVersion}"
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:${junitVersion}"
 }

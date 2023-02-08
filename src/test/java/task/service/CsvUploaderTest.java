@@ -1,18 +1,19 @@
-package service;
+package task.service;
 
-import model.DatabaseDto;
-import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 import java.io.FileNotFoundException;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+
+import task.model.DatabaseDto;
 
 class CsvUploaderTest {
 
     private final CsvUploader uploader = new CsvUploader();
 
-    //dlaczego nie dodaje się klucz?
+    // dlaczego nie dodaje się klucz?
     @Test
     void get() throws FileNotFoundException {
         List<DatabaseDto> csvFile = uploader.getCsvFile();

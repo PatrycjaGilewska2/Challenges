@@ -8,7 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.18/481f5bfed3ae29f656eedfe9e98c8365b8ba5c57/lombok-1.18.18.jar" />
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/2.4.9/2c607ab4b8fa20a0d26077c4c67f6d26ebc93d50/spring-boot-configuration-processor-2.4.9.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/2.7.8/cb1e95433ef15ed363be6fcc538e8406aa7606f7/spring-boot-configuration-processor-2.7.8.jar" />
         </processorPath>
         <module name="Challenges.main" />
       </profile>
