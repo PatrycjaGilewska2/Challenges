@@ -5,7 +5,7 @@ import com.opencsv.bean.CsvBindByName;
 import lombok.Data;
 
 @Data
-public class ClientFile {
+public class ClientDto {
 
     @CsvBindByName(column = "PRIMARY_KEY")
     private String key;
