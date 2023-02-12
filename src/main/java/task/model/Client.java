@@ -8,6 +8,7 @@ import javax.persistence.Table;
 
 import lombok.*;
 
+@EqualsAndHashCode
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor

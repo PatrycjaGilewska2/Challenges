@@ -1,6 +1,10 @@
 package task.service;
 
-import java.io.FileNotFoundException;
+import static org.mockito.Mockito.times;
+import static org.mockito.Mockito.verify;
+import static task.util.TestUtil.*;
+
+import java.io.IOException;
 
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -14,16 +18,16 @@ import task.repository.ClientRepository;
 class FileUploaderTest {
 
     @Mock
-    private ClientRepository clientRepository;
+    private ClientRepository repository;
     @InjectMocks
     private FileUploader uploader;
 
-    private static final String CSV_PATH = "src/test/resources/example.csv";
-
     @Test
-    void get() throws FileNotFoundException {
-//        List<ClientDto> csvFile = uploader.getCsvFile();
-//        assertNotNull(csvFile);
+    void shouldSaveOnlyValidEntities() throws IOException {
+        uploader.saveFiles(getMockMultipartFile());
+        verify(repository).save(getClient1());
+        verify(repository).save(getClient2());
+        verify(repository, times(0)).save(getClient3());
     }
 
 }

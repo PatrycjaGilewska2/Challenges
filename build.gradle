@@ -1,5 +1,4 @@
 plugins {
-//    id 'org.springframework.boot' version '3.0.0'
     id 'io.spring.dependency-management' version '1.1.0'
     id 'java'
     id 'com.diffplug.spotless' version '5.14.0'
@@ -25,6 +24,7 @@ spotless {
         mavenCentral()
     }
 }
+
 dependencies {
     implementation "org.springframework.boot:spring-boot-starter-validation:${springVersion}"
     compileOnly "org.projectlombok:lombok:${lombokVersion}"
@@ -37,13 +37,9 @@ dependencies {
     implementation "com.opencsv:opencsv:${csvVersion}"
     implementation "org.springframework.boot:spring-boot-starter-data-jpa:${springVersion}"
     runtimeOnly "com.h2database:h2:${h2Version}"
-    implementation 'javax.xml.bind:jaxb-api:2.3.1'
-//    czy to mi jest potrzebne ??
-    testImplementation "org.junit.jupiter:junit-jupiter-api:${junitVersion}"
-    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:${junitVersion}"
-
+    implementation "javax.xml.bind:jaxb-api:${xmlbindVersion}"
     testImplementation "org.springframework.boot:spring-boot-starter-test:${springVersion}"
-    testImplementation 'org.mockito:mockito-inline:4.6.1'
+    testImplementation "org.mockito:mockito-inline:${mockitoVersion}"
 }
 
 test {

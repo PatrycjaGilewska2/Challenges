@@ -22,4 +22,9 @@ public class ClientService {
                                                                                       id)));
     }
 
+    public void deleteById(Long id) {
+        log.info("Deleting client by id {}", id);
+        repository.deleteById(id);
+    }
+
 }
