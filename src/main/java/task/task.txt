@@ -1,0 +1,14 @@
+Your client, the local city hall, wants to keep track of CO2 levels across several city districts.
+In order to do so, you agreed to install sensors throughout the city to provide CO2 concentration
+readings each 5 minutes for each district to a given endpoint of your server.
+As you plan to expand this solution to other cities in a multitenant fashion, sensors need to associate
+the CO2 readings to a given customer account (authenticate themselves on the server).
+So you'll need to define some access control.
+Each city hall can check CO2 concentration historical data per district.
+Create a data model in order to store and provide the sensor readings.
+Design a REST API for creating and querying the CO2 data. The data should at least contain:
+CO2 levels per sensor including timestamp
+the district the sensor belongs to
+the city the district belongs to
+Make sure that each city hall can only query their own sensor readings.
+
